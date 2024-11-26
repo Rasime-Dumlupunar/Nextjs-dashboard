@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/rasime/Desktop/4_Dashboard/my-app/app/%28pages%29/products/DeleteButton.tsx"],"sourcesContent":["\"use client\";\n\nimport { deleteProduct } from \"@/utils/api\";\nimport { useRouter } from \"next/navigation\";\nimport { toast } from \"react-toastify\";\n\nconst DeleteButton = ({id} : {id:number}) => {\n  const router = useRouter();\n\n    const handleDelete = () => {\n      deleteProduct(id)\n      .then(() => {\n        // sayfayı yenile (ürünler tekrar alınsın)\n        router.refresh();\n\n        //bildirim gönder\n        toast.success(\"Ürün kaldırıldı!!\")\n      });\n    };\n\n\n  return (\n      <button \n      onClick={handleDelete} \n      className=\"py-1 px-3 bg-[#fed44c] hover:bg-[#f99d0d] rounded-lg\">Sil</button>\n  )\n};\n\nexport default DeleteButton;\n "],"names":[],"mappings":";;;;AAGA;AACA;;;AAJA;;;AAIA,SAAS,KAAK,QAAQ,iBAAiB;AAEvC,MAAM,eAAe,CAAC,EAAC,EAAE,EAAe;;IACtC,MAAM,SAAS;IAEb,MAAM,eAAe;QACnB,cAAc,IACb,IAAI,CAAC;YACJ,0CAA0C;YAC1C,OAAO,OAAO;YAEd,iBAAiB;YACjB,MAAM,OAAO,CAAC;QAChB;IACF;IAGF,qBACI,QAAC;QACD,SAAS;QACT,WAAU;kBAAuD;;;;;;AAEvE;GApBM;;QACW;;;KADX;AAsBN,eAAe,aAAa"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

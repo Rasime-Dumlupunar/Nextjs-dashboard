@@ -1,0 +1,385 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Bluetooth Kulaklık",
+      "description": "Gürültü engelleme özelliğine sahip, yüksek kaliteli kablosuz kulaklık.",
+      "price": 1299.99,
+      "discountPrice": 999.99,
+      "category": "Elektronik",
+      "brand": "SoundPro",
+      "stock": 45,
+      "rating": 4.8,
+      "images": [
+      "https://picsum.photos/seed/1/500/500"
+      ],
+      "tags": [
+      "Bluetooth",
+      "Kablosuz",
+      "Kulaklık"
+      ]
+      },
+    {
+      "id": "2",
+      "name": "Ergonomik Ofis Sandalyesi",
+      "description": "Bel desteği ve ayarlanabilir yükseklik özellikleriyle konforlu çalışma deneyimi.",
+      "price": 799.99,
+      "discountPrice": 699.99,
+      "category": "Mobilya",
+      "brand": "ComfortLine",
+      "stock": 20,
+      "rating": 4.5,
+      "images": [
+        "https://picsum.photos/seed/2/500/500"
+      ],
+      "tags": [
+        "Ergonomik",
+        "Ofis",
+        "Sandalye"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Akıllı Saat",
+      "description": "Kalp atış hızı ölçümü ve çoklu spor modu özellikleri sunan modern akıllı saat.",
+      "price": 1499.99,
+      "discountPrice": null,
+      "category": "Elektronik",
+      "brand": "TechTime",
+      "stock": 32,
+      "rating": 4.7,
+      "images": [
+        "https://picsum.photos/seed/3/500/500",
+        "https://picsum.photos/seed/4/500/500"
+      ],
+      "tags": [
+        "Akıllı Saat",
+        "Spor",
+        "Teknoloji"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Yoga Matı",
+      "description": "Kaymaz yüzeye sahip, dayanıklı ve hafif yoga matı.",
+      "price": 199.99,
+      "discountPrice": 149.99,
+      "category": "Spor",
+      "brand": "FlexFit",
+      "stock": 50,
+      "rating": 4.6,
+      "images": [
+        "https://picsum.photos/seed/5/500/500",
+        "https://picsum.photos/seed/6/500/500"
+      ],
+      "tags": [
+        "Yoga",
+        "Mat",
+        "Spor"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Dizüstü Bilgisayar",
+      "description": "Yüksek performanslı işlemciye ve uzun pil ömrüne sahip dizüstü bilgisayar.",
+      "price": 8499.99,
+      "discountPrice": 7999.99,
+      "category": "Elektronik",
+      "brand": "TechMax",
+      "stock": 15,
+      "rating": 4.9,
+      "images": [
+        "https://picsum.photos/seed/13/500/500",
+        "https://picsum.photos/seed/15/500/500"
+      ],
+      "tags": [
+        "Bilgisayar",
+        "Teknoloji",
+        "Dizüstü"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Deri Sırt Çantası",
+      "description": "Modern tasarıma ve geniş iç hacme sahip, dayanıklı deri sırt çantası.",
+      "price": 399.99,
+      "discountPrice": 349.99,
+      "category": "Aksesuar",
+      "brand": "UrbanBag",
+      "stock": 60,
+      "rating": 4.3,
+      "images": [
+        "https://picsum.photos/seed/7/500/500",
+        "https://picsum.photos/seed/8/500/500"
+      ],
+      "tags": [
+        "Çanta",
+        "Sırt Çantası",
+        "Deri"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Klasik Kol Saati",
+      "description": "Şık tasarımıyla günlük ve özel kullanım için ideal bir kol saati.",
+      "price": 1299.99,
+      "discountPrice": 1099.99,
+      "category": "Aksesuar",
+      "brand": "TimeWear",
+      "stock": 25,
+      "rating": 4.4,
+      "images": [
+        "https://picsum.photos/seed/9/500/500",
+        "https://picsum.photos/seed/10/500/500"
+      ],
+      "tags": [
+        "Saat",
+        "Kol Saati",
+        "Klasik"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Profesyonel Fotoğraf Makinesi",
+      "description": "Yüksek çözünürlüklü fotoğraf ve video çekimleri için ideal fotoğraf makinesi.",
+      "price": 15499.99,
+      "discountPrice": null,
+      "category": "Elektronik",
+      "brand": "PhotoPro",
+      "stock": 10,
+      "rating": 4.9,
+      "images": [
+        "https://picsum.photos/seed/11/500/500",
+        "https://picsum.photos/seed/12/500/500"
+      ],
+      "tags": [
+        "Fotoğraf",
+        "Kamera",
+        "Profesyonel"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Ayşe Yılmaz",
+      "email": "ayse.yilmaz@example.com",
+      "password": "hashedpassword123",
+      "phone": "+905321234567",
+      "address": {
+        "street": "Atatürk Caddesi",
+        "city": "İstanbul",
+        "state": "Marmara",
+        "postalCode": "34000",
+        "country": "Türkiye"
+      },
+      "orderHistory": [
+        {
+          "orderId": 101,
+          "productId": 1,
+          "quantity": 1,
+          "totalPrice": 999.99,
+          "orderDate": "2024-11-10"
+        },
+        {
+          "orderId": 102,
+          "productId": 4,
+          "quantity": 2,
+          "totalPrice": 299.98,
+          "orderDate": "2024-11-15"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mehmet Demir",
+      "email": "mehmet.demir@example.com",
+      "password": "hashedpassword456",
+      "phone": "+905421234567",
+      "address": {
+        "street": "Cumhuriyet Mahallesi",
+        "city": "Ankara",
+        "state": "İç Anadolu",
+        "postalCode": "06000",
+        "country": "Türkiye"
+      },
+      "orderHistory": [
+        {
+          "orderId": 103,
+          "productId": 2,
+          "quantity": 1,
+          "totalPrice": 699.99,
+          "orderDate": "2024-11-12"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Elif Kaya",
+      "email": "elif.kaya@example.com",
+      "password": "hashedpassword789",
+      "phone": "+905311234567",
+      "address": {
+        "street": "Barış Sokak",
+        "city": "İzmir",
+        "state": "Ege",
+        "postalCode": "35000",
+        "country": "Türkiye"
+      },
+      "orderHistory": [
+        {
+          "orderId": 104,
+          "productId": 7,
+          "quantity": 1,
+          "totalPrice": 1099.99,
+          "orderDate": "2024-11-18"
+        },
+        {
+          "orderId": 105,
+          "productId": 6,
+          "quantity": 1,
+          "totalPrice": 349.99,
+          "orderDate": "2024-11-18"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Ahmet Can",
+      "email": "ahmet.can@example.com",
+      "password": "hashedpassword321",
+      "phone": "+905301234567",
+      "address": {
+        "street": "Fatih Bulvarı",
+        "city": "Bursa",
+        "state": "Marmara",
+        "postalCode": "16000",
+        "country": "Türkiye"
+      },
+      "orderHistory": []
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 101,
+      "userId": 1,
+      "orderDate": "2024-11-10",
+      "totalAmount": 999.99,
+      "orderStatus": "Delivered",
+      "shippingAddress": {
+        "street": "Atatürk Caddesi",
+        "city": "İstanbul",
+        "state": "Marmara",
+        "postalCode": "34000",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "name": "Wireless Bluetooth Kulaklık",
+          "quantity": 1,
+          "price": 999.99
+        }
+      ],
+      "id": "5862"
+    },
+    {
+      "orderId": 102,
+      "userId": 1,
+      "orderDate": "2024-11-15",
+      "totalAmount": 299.98,
+      "orderStatus": "Shipped",
+      "shippingAddress": {
+        "street": "Atatürk Caddesi",
+        "city": "İstanbul",
+        "state": "Marmara",
+        "postalCode": "34000",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "productId": 4,
+          "name": "Yoga Matı",
+          "quantity": 2,
+          "price": 149.99
+        }
+      ],
+      "id": "5a8e"
+    },
+    {
+      "orderId": 103,
+      "userId": 2,
+      "orderDate": "2024-11-17",
+      "totalAmount": 699.99,
+      "orderStatus": "Delivered",
+      "shippingAddress": {
+        "street": "Cumhuriyet Mahallesi",
+        "city": "Ankara",
+        "state": "İç Anadolu",
+        "postalCode": "06000",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "productId": 2,
+          "name": "Ergonomik Ofis Sandalyesi",
+          "quantity": 1,
+          "price": 699.99
+        }
+      ],
+      "id": "e804"
+    },
+    {
+      "orderId": 104,
+      "userId": 3,
+      "orderDate": "2024-11-18",
+      "totalAmount": 1449.98,
+      "orderStatus": "Processing",
+      "shippingAddress": {
+        "street": "Barış Sokak",
+        "city": "İzmir",
+        "state": "Ege",
+        "postalCode": "35000",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "productId": 7,
+          "name": "Klasik Kol Saati",
+          "quantity": 1,
+          "price": 1099.99
+        },
+        {
+          "productId": 6,
+          "name": "Deri Sırt Çantası",
+          "quantity": 1,
+          "price": 349.99
+        }
+      ],
+      "id": "ab79"
+    },
+    {
+      "orderId": 105,
+      "userId": 4,
+      "orderDate": "2024-11-19",
+      "totalAmount": 7999.99,
+      "orderStatus": "Pending",
+      "shippingAddress": {
+        "street": "Fatih Bulvarı",
+        "city": "Bursa",
+        "state": "Marmara",
+        "postalCode": "16000",
+        "country": "Türkiye"
+      },
+      "items": [
+        {
+          "productId": 5,
+          "name": "Dizüstü Bilgisayar",
+          "quantity": 1,
+          "price": 7999.99
+        }
+      ],
+      "id": "f25d"
+    }
+  ]
+}
