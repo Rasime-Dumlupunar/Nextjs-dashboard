@@ -11,14 +11,14 @@
       "stock": 45,
       "rating": 4.8,
       "images": [
-        "https://picsum.photos/seed/1/500/500"
+      "https://picsum.photos/seed/1/500/500"
       ],
       "tags": [
-        "Bluetooth",
-        "Kablosuz",
-        "Kulaklık"
+      "Bluetooth",
+      "Kablosuz",
+      "Kulaklık"
       ]
-    },
+      },
     {
       "id": "2",
       "name": "Ergonomik Ofis Sandalyesi",
@@ -99,14 +99,34 @@
       ]
     },
     {
+      "id": "6",
+      "name": "Deri Sırt Çantası",
+      "description": "Modern tasarıma ve geniş iç hacme sahip, dayanıklı deri sırt çantası.",
+      "price": 399.99,
+      "discountPrice": 349.99,
+      "category": "Aksesuar",
+      "brand": "UrbanBag",
+      "stock": 60,
+      "rating": 4.3,
+      "images": [
+        "https://picsum.photos/seed/7/500/500",
+        "https://picsum.photos/seed/8/500/500"
+      ],
+      "tags": [
+        "Çanta",
+        "Sırt Çantası",
+        "Deri"
+      ]
+    },
+    {
       "id": "7",
       "name": "Klasik Kol Saati",
-      "description": "",
-      "price": "1299.99",
+      "description": "Şık tasarımıyla günlük ve özel kullanım için ideal bir kol saati.",
+      "price": 1299.99,
       "discountPrice": 1099.99,
       "category": "Aksesuar",
       "brand": "TimeWear",
-      "stock": "247",
+      "stock": 25,
       "rating": 4.4,
       "images": [
         "https://picsum.photos/seed/9/500/500",
@@ -116,6 +136,26 @@
         "Saat",
         "Kol Saati",
         "Klasik"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Profesyonel Fotoğraf Makinesi",
+      "description": "Yüksek çözünürlüklü fotoğraf ve video çekimleri için ideal fotoğraf makinesi.",
+      "price": 15499.99,
+      "discountPrice": null,
+      "category": "Elektronik",
+      "brand": "PhotoPro",
+      "stock": 10,
+      "rating": 4.9,
+      "images": [
+        "https://picsum.photos/seed/11/500/500",
+        "https://picsum.photos/seed/12/500/500"
+      ],
+      "tags": [
+        "Fotoğraf",
+        "Kamera",
+        "Profesyonel"
       ]
     }
   ],
