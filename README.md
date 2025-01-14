@@ -67,3 +67,4 @@ Bu proje, ürünleri, kullanıcıları ve siparişleri yönetebileceğiniz bir *
 - **react-toastify**: Bildirimler (toast) eklemek için.
 - **JSON-Server**: Sahte bir API oluşturmak için.
 
+# dashboard
