@@ -66,9 +66,3 @@ Bu proje, ürünleri, kullanıcıları ve siparişleri yönetebileceğiniz bir *
 - **react-icons**: Proje içerisinde ikonları kullanmak için.
 - **react-toastify**: Bildirimler (toast) eklemek için.
 - **JSON-Server**: Sahte bir API oluşturmak için.
-
-# dashboard
-# dashboard
-# Nextjs-dashboard
-# Nextjs-dashboard
-# Nextjs-dashboard
